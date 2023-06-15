@@ -41,7 +41,7 @@ main{
 }
 
 #logo1{
-    width: 8vw
+    width: 9vw
 }
 
 .esquerda{
@@ -72,7 +72,7 @@ nav a{
     padding: 2%;
     text-decoration: none;
     color: white;
-    font-size: 1vw;
+    font-size: 2vw;
     align-items: center;
     justify-content: space-between;
     text-align: center; 
@@ -90,6 +90,31 @@ header a:hover {
     
 }
 
+.reservas{
+    position: fixed;
+    background-color: white;
+    text-align: center;
+    color: orangered;
+    padding: 1%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border-radius: 5px;
+    z-index: 3;
+    bottom: 5%;
+    right: 1%;
+    width: 10%;
+    font-weight: bolder;
+}
+
+#linkReservas {
+    
+    font-size: 1vw;
+}
+
+#linkReservas img{
+    width: 7vw;
+        
+}
 .sobre
 {   
     display: inline-flex;
@@ -110,22 +135,6 @@ header a:hover {
     font-size: 1vw;
     flex-grow: 1;
 }
-
-
-
-.reservas{
-    margin-top: 10%;
-    background-color: white;
-    text-align: center;
-    color: orangered;
-    padding: 10px;
-    margin-left: 20%;
-    margin-right: 20%;
-    border-radius: 25px;
-}
-
-
-
 
 .promocao
 {
@@ -209,7 +218,6 @@ footer{
     margin-top: 3%;
     display: flex;
     width: 100%;
-    border: 2px green solid;
     justify-content: space-around;
 
 }
@@ -243,10 +251,6 @@ footer{
     width: 27vw;
 }
 
-.reservas{
-    
-    width: 40%;
-}
 
 h2{
     font-size: 5vw;
