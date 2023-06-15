@@ -6,16 +6,23 @@
 
 
 header{
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), transparent);
+    background-image: linear-gradient(to bottom, black, transparent);
     display: flex;
     justify-content: center;
     justify-items: center;
     top: 0;
     width: 100%;
     position: fixed;
+    z-index: 2;
     
 }
 
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
 
 .imagem-de-fundo{
   background: url("WhatsApp Image 2023-03-15 at 02.41.39.jpeg") ;
@@ -30,6 +37,11 @@ header{
     flex: 10%;   
     text-align: center;
     flex-grow: 1;
+    
+}
+
+#logo1{
+    width: 8vw
 }
 
 .esquerda{
@@ -99,24 +111,7 @@ header a:hover {
     flex-grow: 1;
 }
 
-.programacao
-{
 
-margin-top: 10%;
-background-color: orangered;
-text-align: center;
-color: white;
-padding: 10px;
-margin-left: 10%;
-margin-right: 10%;
-border-radius: 25px;
-}
-
-
-
-.programacao img{
-    padding: 30px;
-}
 
 .reservas{
     margin-top: 10%;
@@ -130,21 +125,29 @@ border-radius: 25px;
 }
 
 
-.container{
-    display: flex;
-    margin-left: 15%;
-    margin-right: 15%;
 
-}
+
 .promocao
 {
 margin-top: 5%;
 display: flex;
-justify-content:center;
+justify-content:space-around;
 align-items: center;
-text-align: center;
 margin: 0;
-flex: 70%;
+z-index: 1;
+width: 100%;
+}
+
+#despedida{
+    width: 30vw;
+}
+
+#video{
+    width: 30vw;
+}
+
+#aniversario{
+    width: 30vw;
 }
 
 .promocao a{
@@ -169,17 +172,6 @@ transition: all 0.3s ease-in-out;
 
 }
 
-.localizacao{
-    margin-top: 10%;
-    background-color: white;
-    text-align: center;
-    color: orangered;
-    width: 50%;
-    border-radius: 25px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 30px;
-}
 h1{
     padding: 10px;
 }
@@ -194,13 +186,99 @@ footer{
     bottom: 0;
 }
 .redes-sociais{
-    margin-top: 10%;
+    margin-top: 1%;
     background-color: white;
     color: orangered;
-    height: 140px;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: 1;
+    font-size: 1.5vw;
+}
+
+#instagram{
+    height: 5vw;
+}
+
+#facebook{
+    height: 5vw;
+}
+
+.dias{
+    margin-top: 3%;
+    display: flex;
+    width: 100%;
+    border: 2px green solid;
+    justify-content: space-around;
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1% 1%;
+    border: 2px solid orangered;
+    background-color: white;
+    border-radius: 20px;
+    color: orangered;
+    font-size: 3vw;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+#sexta{
+
+    width: 27vw;
+}
+#sabado{
+
+   width: 27vw;
+}
+
+#domingo{
+
+    width: 27vw;
+}
+
+.reservas{
+    
+    width: 40%;
+}
+
+h2{
+    font-size: 5vw;
+}
+
+.localizacao{
+    margin-top: 5%;
+    background-color: white;
+    text-align: center;
+    color: orangered;
+    border-radius: 25px;
+    padding-top: 2%;
+    margin-bottom: 5%;
+    width: 50vw;
+    height: 40vw;
+}
+
+a{
+    text-decoration: none;
+    color: orangered;
+}
+
+#gps{
+    margin-top: 5%;
+    width: 30vw;
+    height: 30vw;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;    
+    font-size: 1.5vw;
+    
+
 }
