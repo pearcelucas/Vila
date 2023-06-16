@@ -41,7 +41,7 @@ main{
 }
 
 #logo1{
-    width: 9vw
+    width: 15vw
 }
 
 .esquerda{
@@ -79,13 +79,19 @@ nav a{
     border: solid white 1px;  
     border-radius: 20px;  
     flex-grow: 1;
+    background-color: orangered;
+}
+
+#listas{
+    display: none;
 }
 
 
 header a:hover {
     padding: 3%;
     color: black;
-    background-color: orangered;
+    background-color: white;
+    color: orangered;
     
     
 }
@@ -107,8 +113,9 @@ header a:hover {
 }
 
 #linkReservas {
-    
-    font-size: 1vw;
+    text-decoration: none;
+    color: green;
+    font-size: 1.5vw;
 }
 
 #linkReservas img{
@@ -118,7 +125,7 @@ header a:hover {
 .sobre
 {   
     display: inline-flex;
-    margin-top: 10%;
+    margin-top: 15%;
     margin-right: 0;
     background-color: orangered;
     text-align: center;
@@ -140,7 +147,7 @@ header a:hover {
 {
 margin-top: 5%;
 display: flex;
-justify-content:space-around;
+justify-content:center;
 align-items: center;
 margin: 0;
 z-index: 1;
@@ -148,15 +155,18 @@ width: 100%;
 }
 
 #despedida{
-    width: 30vw;
+    width: 20vw;
+    
 }
 
 #video{
-    width: 30vw;
+    width: 19.5vw;
+    
 }
 
 #aniversario{
-    width: 30vw;
+    width: 20vw;
+    
 }
 
 .promocao a{
@@ -235,20 +245,21 @@ footer{
     font-size: 3vw;
     margin-right: 0;
     margin-left: 0;
+    
 }
 
 #sexta{
 
-    width: 27vw;
+    width: 25vw;
 }
 #sabado{
 
-   width: 27vw;
+   width: 25vw;
 }
 
 #domingo{
 
-    width: 27vw;
+    width: 25vw;
 }
 
 
@@ -256,33 +267,39 @@ h2{
     font-size: 5vw;
 }
 
+#loc{
+    width: 100%;
+}
+
 .localizacao{
     margin-top: 5%;
-    background-color: white;
-    text-align: center;
-    color: orangered;
-    border-radius: 25px;
+    margin-left: 1%;
+    padding-left: 1%;
+    background-color: orangered;
+    text-align: start;
+    color: white;
+    border-radius: 5px;
     padding-top: 2%;
+    padding-bottom: 2%;
     margin-bottom: 5%;
-    width: 50vw;
-    height: 40vw;
+    width: 30%;
+    font-size: 2vw;
+    opacity: 0.8;
+
 }
 
-a{
+#loc a{
     text-decoration: none;
-    color: orangered;
-}
-
-#gps{
-    margin-top: 5%;
-    width: 30vw;
-    height: 30vw;
 }
 
 footer{
     display: flex;
-    justify-content: space-between;    
-    font-size: 1.5vw;
+    justify-content: space-around; 
+    z-index: 2;
+    font-size: 1vw;
     
 
 }
+
+
+
