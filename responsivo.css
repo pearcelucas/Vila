@@ -5,14 +5,25 @@
 
 .reservas {
     display: flex;
-    flex-direction: column;
     width: 20vw;
-    height: 20vw;
+    height: 7vw;
     align-items: center;
     justify-content: center;
     border: green solid 1px;
-    padding-top: 2%;
+    padding: 1%;
+    
 }
+
+#linkReservas {
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+    color: green;
+    font-size: 2vw;
+}
+
+#linkReservas img{
+    width: 8vw;
 
 .promocao{
     justify-content: space-around;
@@ -70,6 +81,8 @@ nav a {
 nav a {
     display: flex;
     justify-content: center;
+}
+
 }
 
 }
