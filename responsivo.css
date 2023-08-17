@@ -1,16 +1,22 @@
 
+
 /* Smartphones (600px para baixo) */
 @media only screen and (orientation: portrait) {
 
 
+body{
+    max-height: 100%;
+}
+
 .reservas {
     display: flex;
-    width: 20vw;
+    width: 25vw;
     height: 7vw;
     align-items: center;
     justify-content: center;
     border: green solid 1px;
     padding: 1%;
+    padding-right: 2%;
     
 }
 
@@ -23,24 +29,24 @@
 }
 
 #linkReservas img{
-    width: 8vw;
-
+    width: 10vw;
+}
 .promocao{
-    justify-content: space-around;
+    justify-content: center;
 }
 
 #despedida{
-    width: 25vw;
+    width: 20vw;
     
 }
 
 #video{
-    width: 24.5vw;
+    width: 20vw;
     
 }
 
 #aniversario{
-    width: 25vw;
+    width: 20vw;
     
 }
 
@@ -83,6 +89,18 @@ nav a {
     justify-content: center;
 }
 
+#sexta{
+
+    width: 20vw;
+}
+#sabado{
+
+   width: 20vw;
+}
+
+#domingo{
+
+    width: 20vw;
 }
 
 }
