@@ -3,9 +3,6 @@
 @media only screen and (orientation: portrait) {
 
 
-body{
-    max-height: 100%;
-}
 
 .reservas {
     display: flex;
@@ -80,8 +77,8 @@ nav a {
 
 
 .promocao { 
-    margin-top: 15%;
-    margin-bottom: 10%;
+    margin-top: 10%;
+  
     
 }
 
@@ -91,8 +88,8 @@ nav a {
 }
 
 .dias {
-    margin-top: 15%;
-    margin-bottom: 10%;
+    margin-top: 5%;
+    
 }
 #sexta{
 
@@ -113,11 +110,10 @@ nav a {
     justify-content: center;
     background-color: orangered;
     color: white;
-    padding-top: 2%;
     width: 100%;
     font-size: 2vw;
     opacity: 0.8;
-    margin-bottom: 5vw;
+   
     
 }
 
@@ -129,4 +125,3 @@ footer{
 
 
 }
-
